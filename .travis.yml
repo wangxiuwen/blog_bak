@@ -15,7 +15,7 @@ script:
   - yarn clean
   - yarn build
   - cd public/
-  - echo 'www.wangxiuwen.com' > CNAME # 发布到自定义域名
+  - echo 'wangxiuwen.com' > CNAME # 发布到自定义域名
   - git init
   - git add -A
   - git commit -m 'deploy'
