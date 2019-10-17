@@ -1,0 +1,23 @@
+language: node_js
+sudo: required
+git:
+  submodules: true
+node_js:
+  - 10.16.0
+branches:
+  only:
+    - src
+cache: yarn
+before_install:
+  - export TZ='Asia/Shanghai'  # 设置时区
+script:
+  - yarn
+  - yarn clean
+  - yarn build
+  - cd public/
+  - echo 'www.wangxiuwen.com' > CNAME # 发布到自定义域名
+  - git init
+  - git add -A
+  - git commit -m 'deploy'
+  - git push -f https://${access_token}@github.com/wangxiuwen/wangxiuwen.github.io.git master
+  - cd -
