@@ -125,7 +125,6 @@ plugins:
   baidu_analytics: # enter Baidu Analytics hash key
   tencent_analytics:
 
-
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://wangxiuwen.com/
@@ -151,6 +150,7 @@ menu:
   Categories: categories # 分类
   Tags: tags # 标签
   Repository: repository # github repositories
+  Links: links
   About: about # 关于
 
 # Enable/Disable menu icons
@@ -233,14 +233,14 @@ profile:
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: xiuwen.wang
-  author_title: Web Developer & Designer
+  author_title: Web Developer &  Music Lover
   author_description: 个人简介。
-  location: shanxi, China
-  follow: https://github.com/wangxiuwen
+  location: Beijing, China
+  follow: https://github.com/wangxiuwen/
   # Social Links
   social:
     links:
-      github: https://github.com/wangxiuwen
+      github: https://github.com/wangxiuwen/
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills
