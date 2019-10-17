@@ -225,10 +225,10 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
+  author: xiuwen.wang
   author_title: Web Developer & Designer
   author_description: 个人简介。
-  location: Shenzhen, China
+  location: shanxi, China
   follow: https://github.com/cofess
   # Social Links
   social:
