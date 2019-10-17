@@ -91,6 +91,23 @@ theme: pure
 deploy:
   type:
 
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-emoji ## add emoji
+
+# --------------------------------------------
 # menu
 menu:
   Home: .
