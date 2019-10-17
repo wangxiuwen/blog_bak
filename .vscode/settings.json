@@ -1,0 +1,25 @@
+{
+  "files.autoSave": "afterDelay",
+  //根据文件后缀名定义vue文件类型
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  //配置 ESLint 检查的文件类型
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "eslint.options": {
+    "plugins": ["html"]
+  },
+  //保存时eslint自动修复错误
+  "eslint.autoFixOnSave": true,
+  //保存自动格式化
+  "editor.formatOnSave": true
+}
