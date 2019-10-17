@@ -11,25 +11,6 @@ author: xiuwen.wang
 language: zh-CN
 timezone: Asia/Shanghai
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://wangxiuwen.com/
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing index.html from permalinks
-
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
-
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -109,7 +90,60 @@ markdown:
     - markdown-it-sup
     - markdown-it-emoji
 
-# --------------------------------------------
+# -------------- theme config --------------
+logo:
+  enabled: true
+  width: 40
+  height: 40
+  url: ../images/logo.png
+favicon: /favicon.png
+board: <p>欢迎访问!</p> # 站点公告
+copyright: true # 底部版权信息
+
+skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
+layout: main-center # 布局方式 main-left main-center main-right
+toc: true # 是否开启文章章节目录导航
+menu_highlight: false # 是否开启当前菜单高亮显示
+thumbnail: false # enable posts thumbnail, options: true, false
+excerpt_link: Read More
+
+# pv
+pv:
+  busuanzi:
+    enable: false # 不蒜子统计
+
+# wordcount
+postCount:
+  enable: false
+  wordcount: true # 文章字数统计
+  min2read: true # 阅读时长预计
+
+# Plugins
+plugins:
+  google_analytics: # enter the tracking ID for your Google Analytics
+  google_site_verification: # enter Google site verification code
+  baidu_analytics: # enter Baidu Analytics hash key
+  tencent_analytics:
+
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://wangxiuwen.com/
+root: /
+permalink: :title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: false # Set to false to remove trailing index.html from permalinks
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
 # menu
 menu:
   Home: .
@@ -133,27 +167,6 @@ menu_icons:
 
 # rss
 rss: /atom.xml
-
-# Site
-site:
-  logo:
-    enabled: true
-    width: 40
-    height: 40
-    url: ../images/logo.png
-  title: Hexo # 页面title
-  favicon: /favicon.png
-  board: <p>欢迎访问!</p> # 站点公告
-  copyright: true # 底部版权信息
-
-# config
-config:
-  skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
-  layout: main-center # 布局方式 main-left main-center main-right
-  toc: true # 是否开启文章章节目录导航
-  menu_highlight: false # 是否开启当前菜单高亮显示
-  thumbnail: false # enable posts thumbnail, options: true, false
-  excerpt_link: Read More
 
 # Pagination
 pagination:
@@ -214,13 +227,7 @@ comment:
   type: disqus # 启用哪种评论系统
   disqus: wangxiuwenwen # enter disqus shortname here
 
-# wordcount
-postCount:
-  enable: true
-  wordcount: true # 文章字数统计
-  min2read: true # 阅读时长预计
-
-# profile
+# ------------------- profile ---------------------
 profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
@@ -229,27 +236,17 @@ profile:
   author_title: Web Developer & Designer
   author_description: 个人简介。
   location: shanxi, China
-  follow: https://github.com/cofess
+  follow: https://github.com/wangxiuwen
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
-      # facebook: /
-      # dribbble: /
-      behance: https://www.behance.net/cofess
+      github: https://github.com/wangxiuwen
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills
   skills:
     Git: ★★★☆☆
-    Gulp: ★★★☆☆
-    Javascript: ★★★☆☆
-    HTML+CSS: ★★★☆☆
-    Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
+    Javascript: ★★★★☆
   # My Personal Links
   links:
     Github: https://github.com/wangxiuwen/
