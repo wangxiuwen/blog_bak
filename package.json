@@ -11,18 +11,21 @@
   "hexo": {
     "version": "4.0.0"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "hexo": "^4.0.0",
     "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-baidu-sitemap": "^0.1.6",
     "hexo-generator-category": "^1.0.0",
+    "hexo-generator-feed": "^2.0.0",
     "hexo-generator-index": "^1.0.0",
+    "hexo-generator-json-content": "^4.1.6",
+    "hexo-generator-sitemap": "^1.2.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
-  },
-  "devDependencies": {
-    "hexo-generator-json-content": "^4.1.6"
+    "hexo-server": "^1.0.0",
+    "hexo-wordcount": "^6.0.1"
   }
 }
