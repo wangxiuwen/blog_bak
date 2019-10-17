@@ -1,13 +1,11 @@
 ---
-title: 关于
+title: Hello, 我是王秀文
 date: 2019-10-17 14:13:13
 description: 个人简介
 layout: about
-comments: false
+comments: true
 sidebar: custom
 ---
-
-# Hello, 我是王秀文
 
 我专注于互联网行业，有超过 5 年的开发经验，主要从事后端开发，以及运维开发等工作。
 

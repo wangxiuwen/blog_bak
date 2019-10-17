@@ -1,6 +1,11 @@
-[submodule "themes/pure"]
-	path = themes/pure
-	url = https://github.com/cofess/hexo-theme-pure
 [submodule "themes/landscape"]
 	path = themes/landscape
 	url = https://github.com/hexojs/hexo-theme-landscape
+[submodule "themes/book"]
+	path = themes/mix
+	url = https://github.com/kaiiiz/hexo-theme-book
+[submodule "themes/mix"]
+	path = themes/mix
+	url = https://github.com/wangxiuwen/hexo-theme-mix
+
+

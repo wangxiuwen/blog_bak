@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 王秀文
 subtitle:
 description:
-keywords:
-author: John Doe
+keywords: 王秀文
+author: xiuwen.wang
 language: zh-CN
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://wangxiuwen.com/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -84,12 +84,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: pure
+theme: mix
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: git@github.com:wangxiuwen/wangxiuwen.github.io.git
+  branch: master
 
 markdown:
   render:
@@ -105,7 +107,7 @@ markdown:
     - markdown-it-ins
     - markdown-it-sub
     - markdown-it-sup
-    - markdown-it-emoji ## add emoji
+    - markdown-it-emoji
 
 # --------------------------------------------
 # menu
@@ -115,8 +117,6 @@ menu:
   Categories: categories # 分类
   Tags: tags # 标签
   Repository: repository # github repositories
-  Books: books # 豆瓣书单
-  Links: links # 友链
   About: about # 关于
 
 # Enable/Disable menu icons
@@ -143,8 +143,8 @@ site:
     url: ../images/logo.png
   title: Hexo # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
-  copyright: false # 底部版权信息
+  board: <p>欢迎访问!</p> # 站点公告
+  copyright: true # 底部版权信息
 
 # config
 config:
@@ -157,7 +157,7 @@ config:
 
 # Pagination
 pagination:
-  number: false
+  number: true
   prev:
     alwayShow: true
   next:
@@ -203,16 +203,9 @@ donate:
     qrcode: images/donate/alipayimg.png
     title: 支付宝
 
-# Share
-# weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
-share:
-  enable: true # 是否启用分享
-  sites: weibo,qq,wechat,facebook,twitter # PC端显示的分享图标
-  mobile_sites: weibo,qq,qzone # 移动端显示的分享图标
-
 # Github
 github:
-  username: cofess # github username
+  username: wangxiuwen # github username
 
 # Comment
 # Gitment
@@ -221,49 +214,11 @@ comment:
   type: disqus # 启用哪种评论系统
   disqus: wangxiuwenwen # enter disqus shortname here
 
-# douban 豆瓣书单
-# Api：
-# https://developers.douban.com/wiki/?title=book_v2 图书
-# https://developers.douban.com/wiki/?title=movie_v2 电影
-# books：
-# https://api.douban.com/v2/book/user/:name/collections?start=0&count=100 个人书单列表
-# movies:
-# https://api.douban.com/v2/movie/in_theaters 正在上映的电影
-# https://api.douban.com/v2/movie/coming_soon 即将上映的电影
-# https://api.douban.com/v2/movie/subject/:id 单个电影信息
-# https://api.douban.com/v2/movie/search?q={text} 电影搜索
-douban:
-  user: # 豆瓣用户名
-  start: 0 # 从哪一条记录开始
-  count: 100 # 获取豆瓣书单数据条数
-
-# PV
-pv:
-  busuanzi:
-    enable: false # 不蒜子统计
-  leancloud:
-    enable: false # leancloud统计
-    app_id: # leancloud <AppID>
-    app_key: # leancloud <AppKey>
-
 # wordcount
 postCount:
-  enable: false
+  enable: true
   wordcount: true # 文章字数统计
   min2read: true # 阅读时长预计
-
-# Plugins
-plugins:
-  google_analytics: # enter the tracking ID for your Google Analytics
-  google_site_verification: # enter Google site verification code
-  baidu_analytics: # enter Baidu Analytics hash key
-  tencent_analytics:
-
-# Miscellaneous
-twitter:
-google_plus:
-fb_admins:
-fb_app_id:
 
 # profile
 profile:
@@ -297,24 +252,13 @@ profile:
     平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+    Github: https://github.com/wangxiuwen/
   # My Personal Labels
   labels:
-    - 前端
-    - 前端开发
-    - 前端重构
-    - Web前端
-    - 网页重构
-  # My Personal Works
+    - 后端
+    - 后端开发
+    - 摇滚码农
   works:
     name:
       link: http://www.example.com
       date: 2016
-  # My Personal Projects
-  projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
