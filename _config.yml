@@ -245,8 +245,11 @@ profile:
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills
   skills:
-    Git: ★★★☆☆
     Javascript: ★★★★☆
+    Java: ★★★☆☆
+    Mysql: ★★★★☆
+    Mongodb: ★★★☆☆
+    Git & svn: ★★☆☆☆
   # My Personal Links
   links:
     Github: https://github.com/wangxiuwen/
