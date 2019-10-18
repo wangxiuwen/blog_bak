@@ -11,6 +11,25 @@ author: xiuwen.wang
 language: zh-CN
 timezone: Asia/Shanghai
 
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://wangxiuwen.com/
+root: /
+permalink: :title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: false # Set to false to remove trailing index.html from permalinks
+  
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -89,176 +108,3 @@ markdown:
     - markdown-it-sub
     - markdown-it-sup
     - markdown-it-emoji
-
-# -------------- theme config --------------
-logo:
-  enabled: true
-  width: 40
-  height: 40
-  url: ../images/logo.png
-favicon: /favicon.png
-board: <p>欢迎访问!</p> # 站点公告
-copyright: true # 底部版权信息
-
-skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
-layout: main-center # 布局方式 main-left main-center main-right
-toc: true # 是否开启文章章节目录导航
-menu_highlight: false # 是否开启当前菜单高亮显示
-thumbnail: false # enable posts thumbnail, options: true, false
-excerpt_link: Read More
-
-# pv
-pv:
-  busuanzi:
-    enable: false # 不蒜子统计
-
-# wordcount
-postCount:
-  enable: false
-  wordcount: true # 文章字数统计
-  min2read: true # 阅读时长预计
-
-# Plugins
-plugins:
-  google_analytics: # enter the tracking ID for your Google Analytics
-  google_site_verification: # enter Google site verification code
-  baidu_analytics: # enter Baidu Analytics hash key
-  tencent_analytics:
-
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://wangxiuwen.com/
-root: /
-permalink: :title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: false # Set to false to remove trailing index.html from permalinks
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
-
-# menu
-menu:
-  Home: .
-  Archives: archives # 归档
-  Categories: categories # 分类
-  Tags: tags # 标签
-  Repository: repository # github repositories
-  Links: links
-  About: about # 关于
-
-# Enable/Disable menu icons
-menu_icons:
-  enable: true # 是否启用导航菜单图标
-  home: icon-home-fill
-  archives: icon-archives-fill
-  categories: icon-folder
-  tags: icon-tags
-  repository: icon-project
-  books: icon-book-fill
-  links: icon-friendship
-  about: icon-cup-fill
-
-# rss
-rss: /atom.xml
-
-# Pagination
-pagination:
-  number: true
-  prev:
-    alwayShow: true
-  next:
-    alwayShow: true
-
-# Sidebar
-sidebar: right
-widgets:
-  - board
-  - category
-  - tag
-  - tagcloud
-  - archive
-  - recent_posts
-
-# display widgets at the bottom of index pages (pagination == 2)
-index_widgets:
-# - category
-# - tagcloud
-# - archive
-
-# widget behavior
-archive_type: 'monthly'
-show_count: true
-
-# Fancybox
-fancybox: false
-
-# Search
-search:
-  insight: true # you need to install `hexo-generator-json-content` before using Insight Search
-  baidu: false # you need to disable other search engines to use Baidu search
-
-# Donate
-donate:
-  enable: true
-  # 微信打赏
-  wechatpay:
-    qrcode: images/donate/wechatpayimg.png
-    title: 微信支付
-  # 支付宝打赏
-  alipay:
-    qrcode: images/donate/alipayimg.png
-    title: 支付宝
-
-# Github
-github:
-  username: wangxiuwen # github username
-
-# Comment
-# Gitment
-# Introduction: https://imsun.net/posts/gitment-introduction/
-comment:
-  type: disqus # 启用哪种评论系统
-  disqus: wangxiuwenwen # enter disqus shortname here
-
-# ------------------- profile ---------------------
-profile:
-  enabled: true # Whether to show profile bar
-  avatar: images/avatar.jpg
-  gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: xiuwen.wang
-  author_title: Web Developer &  Music Lover
-  author_description: 个人简介。
-  location: Beijing, China
-  follow: https://github.com/wangxiuwen/
-  # Social Links
-  social:
-    links:
-      github: https://github.com/wangxiuwen/
-      rss: atom.xml
-    link_tooltip: true # enable the social link tooltip, options: true, false
-  # My Skills
-  skills:
-    Javascript: ★★★★☆
-    Java: ★★★☆☆
-    Mysql: ★★★★☆
-    Mongodb: ★★★☆☆
-    Git & svn: ★★☆☆☆
-  # My Personal Links
-  links:
-    Github: https://github.com/wangxiuwen/
-  # My Personal Labels
-  labels:
-    - 后端
-    - 后端开发
-    - 摇滚码农
-  works:
-    name:
-      link: http://www.example.com
-      date: 2016
