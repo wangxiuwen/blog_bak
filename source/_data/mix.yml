@@ -123,7 +123,7 @@ profile:
   avatarLink: /
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: xiuwen.wang
-  author_title: Web Developer &  Music Lover
+  author_title: Backend Developer &  Music Lover
   author_description: 个人简介。
   location: Beijing, China
   follow: https://github.com/wangxiuwen/
