@@ -135,10 +135,16 @@ profile:
   # My Skills
   skills:
     Javascript: ★★★★☆
-    Java: ★★★☆☆
-    Mysql: ★★★★☆
-    Mongodb: ★★★☆☆
+    Python: ★★☆☆☆
+    Java: ★★☆☆☆
+    Mysql: ★★★☆☆
+    Tidb: ★★☆☆☆
+    Mongodb: ★★★★☆
+    Elasticsearch: ★★★★☆
+    Spark & Scala: ★★☆☆☆
     Git & svn: ★★☆☆☆
+    Nginx: ★★☆☆☆
+    K8s & Docker: ★★☆☆☆
   # My Personal Links
   links:
     Github: https://github.com/wangxiuwen/
