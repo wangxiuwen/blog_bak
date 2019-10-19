@@ -12,8 +12,8 @@ before_install:
   - export TZ='Asia/Shanghai'  # 设置时区
 script:
   - yarn
-  - yarn clean
-  - yarn build
+  - hexo clean
+  - hexo build
   - cd public/
   - echo 'wangxiuwen.com' > CNAME # 发布到自定义域名
   - git init
