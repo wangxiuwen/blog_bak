@@ -11,11 +11,15 @@
   "hexo": {
     "version": "4.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "hexo-filter-flowchart": "^1.0.4",
+    "hexo-toc": "^1.1.0"
+  },
   "devDependencies": {
     "hexo": "^4.0.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^2.0.0",
+    "hexo-filter-mermaid-diagrams": "^1.0.5",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.6",
     "hexo-generator-category": "^1.0.0",
