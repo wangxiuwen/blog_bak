@@ -12,13 +12,12 @@
     "version": "4.0.0"
   },
   "dependencies": {
-    "hexo-asset-image": "^1.0.0",
-    "hexo-filter-flowchart": "^1.0.4",
-    "hexo-neat": "^1.0.4",
-    "hexo-renderer-markdown-it-plus": "^1.0.4",
-    "hexo-toc": "^1.1.0"
+
   },
   "devDependencies": {
+    "hexo-asset-image": "^1.0.0",
+    "hexo-filter-flowchart": "^1.0.4",
+    "hexo-renderer-markdown-it-plus": "^1.0.4",
     "hexo": "^4.0.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^2.0.0",
