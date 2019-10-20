@@ -3,22 +3,21 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo generate --silent",
     "clean": "hexo clean",
-    "deploy": "hexo deploy -g",
-    "serve": "hexo serve"
+    "deploy": "hexo deploy -g --silent",
+    "serve": "hexo serve --silent"
   },
   "hexo": {
     "version": "4.0.0"
   },
   "dependencies": {},
   "devDependencies": {
-    "hexo-asset-image": "^1.0.0",
-    "hexo-filter-flowchart": "^1.0.4",
-    "hexo-renderer-markdown-it-plus": "^1.0.4",
     "hexo": "^4.0.0",
+    "hexo-asset-image": "^1.0.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^2.0.0",
+    "hexo-filter-flowchart": "^1.0.4",
     "hexo-filter-mermaid-diagrams": "^1.0.5",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.6",
@@ -28,11 +27,14 @@
     "hexo-generator-json-content": "^4.1.6",
     "hexo-generator-sitemap": "^1.2.0",
     "hexo-generator-tag": "^1.0.0",
+    "hexo-neat": "^1.0.4",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-markdown-it": "^3.4.1",
+    "hexo-renderer-markdown-it-plus": "^1.0.4",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
     "hexo-wordcount": "^6.0.1",
-    "markdown-it-emoji": "^1.4.0"
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-katex": "^2.0.3"
   }
 }
