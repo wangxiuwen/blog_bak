@@ -11,9 +11,7 @@
   "hexo": {
     "version": "4.0.0"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "hexo-asset-image": "^1.0.0",
     "hexo-filter-flowchart": "^1.0.4",
