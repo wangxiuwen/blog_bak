@@ -6,7 +6,7 @@ node_js:
   - 10.16.0
 branches:
   only:
-    - src
+    - master
 cache: yarn
 before_install:
   - export TZ='Asia/Shanghai'  # 设置时区
@@ -19,5 +19,5 @@ script:
   - git init
   - git add -A
   - git commit -m 'deploy' --quiet
-  - git push -f https://${access_token}@github.com/wangxiuwen/wangxiuwen.github.io.git master
+  - git push -f https://${access_token}@github.com/wangxiuwen/wangxiuwen.github.io.git master:gh-pages
   - cd -
