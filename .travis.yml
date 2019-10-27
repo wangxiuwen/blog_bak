@@ -14,9 +14,17 @@ script:
   - yarn
   - hexo clean
   - hexo generate --silent
-  - cd public/
-  - git init
-  - git add -A
-  - git commit -m 'deploy' --quiet
-  - git push -f https://${access_token}@github.com/wangxiuwen/wangxiuwen.github.io.git master:gh-pages
-  - cd -
+#  - cd public/
+#  - git init
+#  - git add -A
+#  - git commit -m 'deploy' --quiet
+#  - git push -f https://${access_token}@github.com/wangxiuwen/wangxiuwen.github.io.git master:gh-pages
+#  - cd -
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $access_token
+  keep-history: true
+  on:
+    branch: master
+  local-dir: public
