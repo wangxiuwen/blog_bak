@@ -15,7 +15,6 @@ script:
   - hexo clean
   - hexo generate --silent
   - cd public/
-  - echo 'wangxiuwen.com' > CNAME # 发布到自定义域名
   - git init
   - git add -A
   - git commit -m 'deploy' --quiet
