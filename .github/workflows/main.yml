@@ -7,8 +7,6 @@ on:
 env:
   GIT_USER: wangxiuwen
   GIT_EMAIL: wangxiuwen@wangxiuwen.com
-  THEME_REPO: sanonz/hexo-theme-concise
-  THEME_BRANCH: master
   ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
 jobs:
@@ -22,14 +20,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       
-      - name: Checkout theme repo
-        uses: actions/checkout@v2
-        with:
-          repository: ${{ env.THEME_REPO }}
-          ref: ${{ env.THEME_BRANCH }}
-          path: themes/concise
-
-
       - name: Configuration git
         run: |
           git config --global user.name ${GIT_USER}
@@ -39,7 +29,14 @@ jobs:
         run: |
           npm install -D yarn
           ./node_modules/yarn/bin/yarn
-          
+       
+      - name: Install theme
+        env:
+          NEXT_VERSION: master
+        run: |
+          git clone --branch ${master} --depth=10 git@github.com:next-theme/hexo-theme-next.git themes/next
+          git checkout -b ${master}
+
       - name: Deploy hexo
         run: |
           ./node_modules/hexo/bin/hexo clean
