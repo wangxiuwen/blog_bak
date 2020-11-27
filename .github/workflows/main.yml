@@ -22,8 +22,8 @@ jobs:
           
       - name: Deploy hexo
         run: |
-          hexo clean
-          hexo generate --silent
+          ./node_modules/hexo/bin/hexo clean
+          ./node_modules/hexo/bin/hexo generate --silent
           cd public/
           git init
           git add -A
