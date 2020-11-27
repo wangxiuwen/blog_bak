@@ -38,4 +38,4 @@ jobs:
           git init
           git add -A
           git commit -m 'deploy' --quiet
-          git push -f https://${ACCESS_TOKEN}@github.com/wangxiuwen/wangxiuwen.github.io.git master:gh-pages
+          git push -f https://${ACCESS_TOKEN}@github.com/wangxiuwen/blog.git master:gh-pages
