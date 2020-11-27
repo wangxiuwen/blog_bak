@@ -17,8 +17,8 @@ jobs:
       
       - name: Install dependencies
         run: |
-          npm install -g yarn
-          yarn
+          npm install -D yarn
+          ./node_modules/elm-test/bin/yarn
           
       - name: Deploy hexo
         run: |
