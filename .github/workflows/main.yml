@@ -31,11 +31,8 @@ jobs:
           ./node_modules/yarn/bin/yarn
        
       - name: Install theme
-        env:
-          NEXT_VERSION: master
         run: |
-          git clone --branch ${master} --depth=10 git@github.com:next-theme/hexo-theme-next.git themes/next
-          git checkout -b ${master}
+          git clone https://github.com/theme-next/hexo-theme-next themes/next
 
       - name: Deploy hexo
         run: |
