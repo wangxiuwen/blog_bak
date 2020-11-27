@@ -19,7 +19,7 @@ script:
 #  - git add -A
 #  - git commit -m 'deploy' --quiet
 #  - git push -f https://${access_token}@github.com/wangxiuwen/wangxiuwen.github.io.git master:gh-pages
-#  - cd -
+#  - cd - 
 deploy:
   provider: pages
   skip-cleanup: true
