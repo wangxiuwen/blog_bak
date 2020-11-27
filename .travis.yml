@@ -11,20 +11,21 @@ cache: yarn
 before_install:
   - export TZ='Asia/Shanghai'  # 设置时区
 script:
-  - yarn
-  - hexo clean
-  - hexo generate --silent
+    - echo "使用 github action 此文件废弃"
+#   - yarn
+#   - hexo clean
+#   - hexo generate --silent
 #  - cd public/
 #  - git init
 #  - git add -A
 #  - git commit -m 'deploy' --quiet
 #  - git push -f https://${access_token}@github.com/wangxiuwen/wangxiuwen.github.io.git master:gh-pages
 #  - cd - 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $access_token
-  keep-history: true
-  on:
-    branch: master
-  local-dir: public
+# deploy:
+#   provider: pages
+#   skip-cleanup: true
+#   github-token: $access_token
+#   keep-history: true
+#   on:
+#     branch: master
+#   local-dir: public
