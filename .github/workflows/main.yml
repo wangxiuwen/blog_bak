@@ -7,6 +7,8 @@ on:
 env:
   GIT_USER: wangxiuwen
   GIT_EMAIL: wangxiuwen@wangxiuwen.com
+  THEME_REPO: sanonz/hexo-theme-concise
+  THEME_BRANCH: master
   ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
 jobs:
@@ -20,6 +22,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       
+      - name: Checkout theme repo
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ env.THEME_REPO }}
+          ref: ${{ env.THEME_BRANCH }}
+          path: themes/concise
+
+
       - name: Configuration git
         run: |
           git config --global user.name ${GIT_USER}
