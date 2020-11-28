@@ -19,7 +19,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      
+
+      - name: Checkout submodules
+      - uses: actions/checkout@v2
+        shell: bash
+        run: |
+          git submodule sync --recursive
+          git submodule update --init --force --recursive --depth=1
+
       - name: Configuration git
         run: |
           git config --global user.name ${GIT_USER}
@@ -29,10 +36,6 @@ jobs:
         run: |
           npm install -D yarn
           ./node_modules/yarn/bin/yarn
-       
-      - name: Install theme
-        run: |
-          git clone https://github.com/theme-next/hexo-theme-next themes/next
 
       - name: Deploy hexo
         run: |

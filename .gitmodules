@@ -1,8 +1,5 @@
-[submodule "themes/book"]
-	path = themes/mix
-	url = https://github.com/kaiiiz/hexo-theme-book
-[submodule "themes/mix"]
-	path = themes/mix
-	url = https://github.com/wangxiuwen/hexo-theme-mix
+[submodule "themes/next"]
+	path = themes/next
+	url = https://github.com/theme-next/hexo-theme-next
 
 
