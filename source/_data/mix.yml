@@ -126,7 +126,7 @@ profile:
   avatar: images/avatar.jpg
   avatarLink: /
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: xiuwen.wang
+  author: williamwong
   author_title: Backend Developer &  Music Lover
   author_description: 个人简介。
   location: Beijing, China
