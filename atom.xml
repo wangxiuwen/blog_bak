@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>王秀文</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://wangxiuwen.github.io/"/>
+  <updated>2020-11-29T01:42:08.779Z</updated>
+  <id>https://wangxiuwen.github.io/</id>
+  
+  <author>
+    <name>williamwong</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>友情链接</title>
+    <link href="https://wangxiuwen.github.io/links/"/>
+    <id>https://wangxiuwen.github.io/links/</id>
+    <published>2020-11-29T01:42:08.779Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Repositories</title>
+    <link href="https://wangxiuwen.github.io/repository/"/>
+    <id>https://wangxiuwen.github.io/repository/</id>
+    <published>2020-11-29T01:42:08.779Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网址导航</title>
+    <link href="https://wangxiuwen.github.io/site-navs/"/>
+    <id>https://wangxiuwen.github.io/site-navs/</id>
+    <published>2020-11-29T01:42:08.779Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>标签</title>
+    <link href="https://wangxiuwen.github.io/tags/"/>
+    <id>https://wangxiuwen.github.io/tags/</id>
+    <published>2020-11-29T01:42:08.779Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>helm tls 证书配置</title>
+    <link href="https://wangxiuwen.github.io/topics/tech/helm-tls-conf/"/>
+    <id>https://wangxiuwen.github.io/topics/tech/helm-tls-conf/</id>
+    <published>2020-11-29T01:42:08.779Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --><h1 id="helm-tls-证书配置"><a class="markdownIt-Anchor" href="#helm-tls-证书配置"></a> helm tls 证书配置</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> HELM_TLS_ENABLE=<span class="literal">true</span></span><br><span class="line"><span class="built_in">export</span> HELM_TLS_CA_CERT=/etc/kubernetes/pki/ca.pem</span><br><span class="line"><span class="built_in">export</span> HELM_TLS_CERT=/etc/kubernetes/pki/admin.pem</span><br><span class="line"><span class="built_in">export</span> HELM_TLS_KEY=/etc/kubernetes/pki/admin-key.pem</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --&gt;&lt;h1 id=&quot;helm-tls-证书配置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>分类</title>
+    <link href="https://wangxiuwen.github.io/categories/"/>
+    <id>https://wangxiuwen.github.io/categories/</id>
+    <published>2020-11-29T01:42:08.743Z</published>
+    <updated>2020-11-29T01:42:08.743Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://wangxiuwen.github.io/test/"/>
+    <id>https://wangxiuwen.github.io/test/</id>
+    <published>2019-10-20T00:54:32.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>github 修改语言统计</title>
+    <link href="https://wangxiuwen.github.io/topics/tech/github-%E4%BF%AE%E6%94%B9%E8%AF%AD%E8%A8%80%E7%BB%9F%E8%AE%A1/"/>
+    <id>https://wangxiuwen.github.io/topics/tech/github-修改语言统计/</id>
+    <published>2019-10-19T13:01:00.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --><p>参考地址:</p><p><a href="https://www.cnblogs.com/kavlez/p/4214112.html" target="_blank" rel="noopener">https://www.cnblogs.com/kavlez/p/4214112.html</a></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      我专注于互联网行业，有超过 5 年的开发经验，主要从事后端开发，以及运维开发等工作。
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>home</title>
+    <link href="https://wangxiuwen.github.io/home/"/>
+    <id>https://wangxiuwen.github.io/home/</id>
+    <published>2019-10-17T13:18:18.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello, 我是王秀文</title>
+    <link href="https://wangxiuwen.github.io/about/"/>
+    <id>https://wangxiuwen.github.io/about/</id>
+    <published>2019-10-17T06:13:13.000Z</published>
+    <updated>2020-11-29T01:42:08.743Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:43 GMT+0000 (Coordinated Universal Time) --><h3 class="hakunamatata">Hakuna Matata</h3><h2 id="技术栈"><a class="markdownIt-Anchor" href="#技术栈"></a> 🔨 技术栈</h2><p>常用语言:</p><ul><li>nodejs</li><li>go</li><li>python</li><li>java</li><li>🐚 shell</li></ul><p>数据库:</p><ul><li>redis</li><li>mysql</li><li>mongodb</li></ul><p>搜索引擎:</p><ul><li>elasticsearch</li></ul><p>消息队列:</p><ul><li>kafka</li></ul><p>大数据处理:</p><ul><li>spark</li></ul><p>网关:</p><ul><li>nginx</li></ul><p>CI/CD:</p><ul><li>gitlab-ci/jenkins</li><li>ansible</li></ul><p>容器/云原生:</p><ul><li>docker</li><li>k8s(istio/envoy)</li></ul><h2 id="技术博客"><a class="markdownIt-Anchor" href="#技术博客"></a> 🐌 技术博客</h2><p><a href="https://wangxiuwen.com" target="_blank" rel="noopener">https://wangxiuwen.com</a></p><h2 id="业余爱好"><a class="markdownIt-Anchor" href="#业余爱好"></a> 🏡 业余爱好</h2><ul><li>🎸 弹吉他</li><li>📷 摄影</li></ul><h2 id="联系我"><a class="markdownIt-Anchor" href="#联系我"></a> 📟 联系我</h2><ul><li>📲 微信: wangxiuwenwen</li><li><a href="mailto:wangxiuwen@wangxiuwen.com" target="_blank" rel="noopener">✉️ wangxiuwen@wangxiuwen.com</a></li><li><a href="https://github.com/wangxiuwen/" target="_blank" rel="noopener">🐱 github</a></li></ul><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      我专注于互联网行业，有超过 5 年的开发经验，主要从事后端开发，以及运维开发等工作。
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>docsify 文档网站</title>
+    <link href="https://wangxiuwen.github.io/history/tech/5da1a5a3a24691a906b2e1df/"/>
+    <id>https://wangxiuwen.github.io/history/tech/5da1a5a3a24691a906b2e1df/</id>
+    <published>2019-10-11T22:06:27.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --><p><a href="https://docsify.js.org/#/" target="_blank" rel="noopener">https://docsify.js.org/#/</a></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --&gt;&lt;p&gt;&lt;a href=&quot;https://docsify.js.org/#/&quot; target=&quot;_blank&quot; rel
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="tech" scheme="https://wangxiuwen.github.io/tags/tech/"/>
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>eslint 设置</title>
+    <link href="https://wangxiuwen.github.io/history/tech/5da07c76a24691a906b2e1de/"/>
+    <id>https://wangxiuwen.github.io/history/tech/5da07c76a24691a906b2e1de/</id>
+    <published>2019-10-11T00:58:30.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --><p>vscode设置：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&quot;files.autoSave&quot;:&quot;off&quot;,</span><br><span class="line">&quot;eslint.validate&quot;: [</span><br><span class="line">   &quot;javascript&quot;,</span><br><span class="line">   &quot;javascriptreact&quot;,</span><br><span class="line">   &quot;html&quot;,</span><br><span class="line">   &#123; &quot;language&quot;: &quot;vue&quot;, &quot;autoFix&quot;: true &#125;</span><br><span class="line"> ],</span><br><span class="line"> &quot;eslint.options&quot;: &#123;</span><br><span class="line">    &quot;plugins&quot;: [&quot;html&quot;]</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure><p>饿了么 eslint：</p><p><a href="https://www.npmjs.com/package/eslint-config-elemefe" target="_blank" rel="noopener">https://www.npmjs.com/package/eslint-config-elemefe</a></p><p>vue 的 eslint:</p><p><a href="https://github.com/vuejs/eslint-config-vue" target="_blank" rel="noopener">https://github.com/vuejs/eslint-config-vue</a></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --&gt;&lt;p&gt;vscode设置：&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="tech" scheme="https://wangxiuwen.github.io/tags/tech/"/>
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ios 13 黑暗模式 关闭</title>
+    <link href="https://wangxiuwen.github.io/history/tech/5d9eaf494d5e95b106b9f3fd/"/>
+    <id>https://wangxiuwen.github.io/history/tech/5d9eaf494d5e95b106b9f3fd/</id>
+    <published>2019-10-10T04:10:49.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">还没适配完又不想给用户看，可以先暂时全局关闭暗黑模式：</span><br><span class="line">在 Info.plist 文件中，添加 key 为 User Interface Style，类型为 String，value 设置为 Light 即可。</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="tech" scheme="https://wangxiuwen.github.io/tags/tech/"/>
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql 没有grant权限</title>
+    <link href="https://wangxiuwen.github.io/history/tech/5d9ec3f5a24691a906b2e1dd/"/>
+    <id>https://wangxiuwen.github.io/history/tech/5d9ec3f5a24691a906b2e1dd/</id>
+    <published>2019-10-09T17:39:01.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">show grants for root@&quot;%&quot;;</span><br><span class="line">GRANT Grant Option ON *.* TO `root`@`%`;</span><br><span class="line">ERROR 1045 (28000): Access denied</span><br></pre></td></tr></table></figure><p>解决：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">select user,host,Grant_priv from user; </span><br><span class="line">update mysql.user set Grant_priv=&quot;Y&quot;  where user=&quot;root&quot; and host=&quot;%&quot;;</span><br><span class="line">GRANT Grant Option ON *.* TO `root`@`%`;</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="tech" scheme="https://wangxiuwen.github.io/tags/tech/"/>
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>xxx.app 已损坏</title>
+    <link href="https://wangxiuwen.github.io/history/tech/5d89878b97d8821c4793c589/"/>
+    <id>https://wangxiuwen.github.io/history/tech/5d89878b97d8821c4793c589/</id>
+    <published>2019-09-24T03:03:39.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo spctl --master-disable</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="tech" scheme="https://wangxiuwen.github.io/tags/tech/"/>
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ubuntu安装 BCM4312 无线驱动</title>
+    <link href="https://wangxiuwen.github.io/history/tech/5d86399397d8821c4793c588/"/>
+    <id>https://wangxiuwen.github.io/history/tech/5d86399397d8821c4793c588/</id>
+    <published>2019-09-21T02:54:11.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">lshw -C network</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install bcmwl-kernel-source</span><br></pre></td></tr></table></figure><p>参考资料:</p><p><a href="https://askubuntu.com/questions/11993/how-do-i-install-bcm4312-wireless-drivers" target="_blank" rel="noopener">https://askubuntu.com/questions/11993/how-do-i-install-bcm4312-wireless-drivers</a></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="tech" scheme="https://wangxiuwen.github.io/tags/tech/"/>
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ubuntu 安装ffpmeg</title>
+    <link href="https://wangxiuwen.github.io/history/tech/5d85dcc397d8821c4793c587/"/>
+    <id>https://wangxiuwen.github.io/history/tech/5d85dcc397d8821c4793c587/</id>
+    <published>2019-09-20T20:18:11.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">add-apt-repository ppa:djcj/hybrid</span><br><span class="line">apt-get update</span><br><span class="line">apt-get install ffmpeg</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="tech" scheme="https://wangxiuwen.github.io/tags/tech/"/>
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派usb硬盘休眠</title>
+    <link href="https://wangxiuwen.github.io/history/tech/5d7999fa97d8821c4793c586/"/>
+    <id>https://wangxiuwen.github.io/history/tech/5d7999fa97d8821c4793c586/</id>
+    <published>2019-09-12T01:06:02.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --><p><a href="http://sg.danny.cz/sg/sdparm.html" target="_blank" rel="noopener">http://sg.danny.cz/sg/sdparm.html</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sdparm --flexible --command=stop /dev/sda</span><br><span class="line"> crontab -l | &#123; cat; echo &quot;/10 * * * * sdparm --command=stop /dev/sda&quot;; &#125; | sudo crontab -</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --&gt;&lt;p&gt;&lt;a href=&quot;http://sg.danny.cz/sg/sdparm.html&quot; target=&quot;_bl
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="tech" scheme="https://wangxiuwen.github.io/tags/tech/"/>
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac python3 安装</title>
+    <link href="https://wangxiuwen.github.io/history/tech/5d77ac3807cfaf0c4726b5e1/"/>
+    <id>https://wangxiuwen.github.io/history/tech/5d77ac3807cfaf0c4726b5e1/</id>
+    <published>2019-09-10T01:59:20.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install python</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="tech" scheme="https://wangxiuwen.github.io/tags/tech/"/>
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos 安装 python3.6</title>
+    <link href="https://wangxiuwen.github.io/history/tech/5d7772ec97d8821c4793c585/"/>
+    <id>https://wangxiuwen.github.io/history/tech/5d7772ec97d8821c4793c585/</id>
+    <published>2019-09-09T21:54:52.000Z</published>
+    <updated>2020-11-29T01:42:08.779Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">sudo yum update</span><br><span class="line">sudo yum install yum-utils</span><br><span class="line">sudo yum groupinstall development</span><br><span class="line"></span><br><span class="line">sudo yum install https://centos7.iuscommunity.org/ius-release.rpm</span><br><span class="line">sudo yum install python36u</span><br><span class="line">sudo yum install python36u-pip</span><br><span class="line">sudo yum install python36u-devel</span><br><span class="line">python3.6 -V</span><br><span class="line">python3.6 -m venv venv</span><br></pre></td></tr></table></figure><p><a href="https://janikarhunen.fi/how-to-install-python-3-6-1-on-centos-7" target="_blank" rel="noopener">https://janikarhunen.fi/how-to-install-python-3-6-1-on-centos-7</a></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Nov 29 2020 01:42:44 GMT+0000 (Coordinated Universal Time) --&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="tech" scheme="https://wangxiuwen.github.io/tags/tech/"/>
+    
+      <category term="技术" scheme="https://wangxiuwen.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+</feed>
